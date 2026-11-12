@@ -1,0 +1,28 @@
+# 依赖、缓存和构建输出
+node_modules
+.pnpm-store/
+.vite/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+# 凭据和本机 Agent 配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/
+.codex/
+.agents/
+# 内容项目、外部项目链接与媒体输出只保存在本机
+/projects/
+out/
+*.mp4
+*.mov
+*.wav
+*.mp3
+/ref/robot/
+# 历史整目录备份和迁移记录
+/_archive/

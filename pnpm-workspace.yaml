@@ -1,0 +1,4 @@
+allowBuilds:
+  esbuild: true
+# 运行脚本前不自动校验/重装依赖：Codex 等无终端环境里校验会误判并尝试清空 node_modules
+verifyDepsBeforeRun: false

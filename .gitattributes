@@ -1,0 +1,2 @@
+# 原样保留第三方字体许可证中的行尾空格
+public/fonts/**/OFL.txt whitespace=-blank-at-eol

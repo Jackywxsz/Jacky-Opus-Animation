@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jacky Doodle Explainer</title>
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <style>
+      html, body { margin: 0; background: #2b2a28; }
+      #stage { width: 1920px; height: 1080px; overflow: hidden; transform-origin: 0 0; }
+      body.render #stage { transform: none !important; }
+      #bar { position: fixed; left: 0; right: 0; bottom: 0; display: flex; gap: 12px; align-items: center; padding: 10px 16px; background: rgba(0,0,0,.72); color: #eee; font: 13px/1.2 ui-monospace, monospace; }
+      #bar input[type=range] { flex: 1; }
+      body.render #bar { display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="stage"></div>
+    <div id="bar">
+      <button id="play">▶︎</button>
+      <input id="scrub" type="range" min="0" max="1" step="0.001" value="0" />
+      <span id="clock">0.000s · f0</span>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

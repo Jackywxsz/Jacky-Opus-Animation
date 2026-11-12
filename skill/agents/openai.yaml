@@ -1,0 +1,5 @@
+interface:
+  display_name: "Jacky-yazai 芽仔解说成片"
+  short_description: "中文口播稿 → 芽仔手绘纸面解说 mp4（3:4 口播 / 16:9 教程），火山配音逐字对齐"
+  brand_color: "#0138C4"
+  default_prompt: "使用 $jacky-yazai，把这段口播稿做成芽仔手绘解说视频：先确认画幅和素材，再写分镜、配音、跑 qa、抽帧检查并出片。"

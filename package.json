@@ -1,0 +1,27 @@
+{
+  "name": "jacky-doodle-explainer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "fonts": "python3 scripts/fonts.py",
+    "voice": "tsx scripts/voice.ts",
+    "audio": "python3 scripts/audio.py",
+    "render": "tsx scripts/render.ts",
+    "compare": "python3 scripts/compare.py",
+    "qa": "tsx scripts/qa.ts",
+    "validate": "tsx scripts/validate-storyboard.ts"
+  },
+  "dependencies": {
+    "@tabler/icons": "3.48.0",
+    "roughjs": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "playwright-core": "^1.63.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
